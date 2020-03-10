@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>https://jeyligo.github.io/post/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 Mar 2020 19:03:33 +0800</lastBuildDate>
+    
+	<atom:link href="https://jeyligo.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>记事本软件</title>
+      <link>https://jeyligo.github.io/post/blog/</link>
+      <pubDate>Mon, 09 Mar 2020 19:03:33 +0800</pubDate>
+      
+      <guid>https://jeyligo.github.io/post/blog/</guid>
+      <description>from tkinter import * from tkinter.colorchooser import * from tkinter.filedialog import * from tkinter.messagebox import *
+class Application(Frame): def init(self, master=None): super().init(master) self.master = master self.name_file = None self.context_menu = None self.create_widget()
+def create_widget(self): &amp;quot;&amp;quot;&amp;quot;创建主菜单&amp;quot;&amp;quot;&amp;quot; menu_bar = Menu(root) # 创建子菜单 menu_file = Menu(menu_bar) menu_edit = Menu(menu_bar) menu_help = Menu(menu_bar) # 将子菜单加入到菜单栏 menu_bar.add_cascade(label=&amp;quot;文件(F)&amp;quot;, menu=menu_file) menu_bar.add_cascade(label=&amp;quot;编辑(E)&amp;quot;, menu=menu_edit) menu_bar.add_cascade(label=&amp;quot;帮助(H)&amp;quot;, menu=menu_help) # 增加菜单项 menu_file.add_command(label=&amp;quot;新建&amp;quot;, accelerator=&amp;quot;ctrl+n&amp;quot;, command=self.file_new) menu_file.add_command(label=&amp;quot;打开&amp;quot;, accelerator=&amp;quot;ctrl+o&amp;quot;, command=self.file_open) menu_file.add_command(label=&amp;quot;保存&amp;quot;, accelerator=&amp;quot;ctrl+s&amp;quot;, command=self.file_save) menu_file.add_separator() menu_file.add_command(label=&amp;quot;退出&amp;quot;, accelerator=&amp;quot;ctrl+q&amp;quot;,command=self.</description>
+    </item>
+    
+  </channel>
+</rss>

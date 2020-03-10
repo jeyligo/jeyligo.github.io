@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="generator" content="Hugo 0.66.0" />
+
+  <title>记事本软件 &middot; My New Hugo Site</title>
+
+  <meta name="description" content="" />
+
+  
+  <meta property="og:locale" content="en-us"/>
+
+  
+
+  
+  <meta property="og:site_name" content="My New Hugo Site"/>
+  <meta property="og:title" content="记事本软件"/>
+  <meta property="og:description" content="from tkinter import * from tkinter.colorchooser import * from tkinter.filedialog import * from tkinter.messagebox import *
+class Application(Frame): def init(self, master=None): super().init(master) self.master = master self.name_file = None self.context_menu = None self.create_widget()
+def create_widget(self): &quot;&quot;&quot;创建主菜单&quot;&quot;&quot; menu_bar = Menu(root) # 创建子菜单 menu_file = Menu(menu_bar) menu_edit = Menu(menu_bar) menu_help = Menu(menu_bar) # 将子菜单加入到菜单栏 menu_bar.add_cascade(label=&quot;文件(F)&quot;, menu=menu_file) menu_bar.add_cascade(label=&quot;编辑(E)&quot;, menu=menu_edit) menu_bar.add_cascade(label=&quot;帮助(H)&quot;, menu=menu_help) # 增加菜单项 menu_file.add_command(label=&quot;新建&quot;, accelerator=&quot;ctrl&#43;n&quot;, command=self.file_new) menu_file.add_command(label=&quot;打开&quot;, accelerator=&quot;ctrl&#43;o&quot;, command=self.file_open) menu_file.add_command(label=&quot;保存&quot;, accelerator=&quot;ctrl&#43;s&quot;, command=self.file_save) menu_file.add_separator() menu_file.add_command(label=&quot;退出&quot;, accelerator=&quot;ctrl&#43;q&quot;,command=self."/>
+  <meta property="og:url" content="https://jeyligo.github.io/post/blog/"/>
+  <meta property="og:type" content="article"/>
+  <meta property="article:published_time" content="2020-03-09T19:03:33&#43;0800"/>
+  <meta property="article:modified_time" content="2020-03-09T19:03:33&#43;0800"/>
+  <meta property="article:author" content="">
+  
+  
+  
+
+  <script type="application/ld+json">
+  {
+    "@context" : "http://schema.org",
+    "@type" : "Blog",
+    "name": "My New Hugo Site",
+    "url" : "https://jeyligo.github.io",
+    "description": ""
+  }
+  </script>
+
+  
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "name": "记事本软件",
+    "headline": "记事本软件",
+    "datePublished": "2020-03-09T19:03:33\x2b0800",
+    "dateModified": "2020-03-09T19:03:33\x2b0800",
+    "author": {
+      "@type": "Person",
+      "name": "",
+      "url": "https://jeyligo.github.io"
+    },
+    "url": "https://jeyligo.github.io/post/blog/",
+    "description": "from tkinter import * from tkinter.colorchooser import * from tkinter.filedialog import * from tkinter.messagebox import *\nclass Application(Frame): def init(self, master=None): super().init(master) self.master = master self.name_file = None self.context_menu = None self.create_widget()\ndef create_widget(self): \x26quot;\x26quot;\x26quot;创建主菜单\x26quot;\x26quot;\x26quot; menu_bar = Menu(root) # 创建子菜单 menu_file = Menu(menu_bar) menu_edit = Menu(menu_bar) menu_help = Menu(menu_bar) # 将子菜单加入到菜单栏 menu_bar.add_cascade(label=\x26quot;文件(F)\x26quot;, menu=menu_file) menu_bar.add_cascade(label=\x26quot;编辑(E)\x26quot;, menu=menu_edit) menu_bar.add_cascade(label=\x26quot;帮助(H)\x26quot;, menu=menu_help) # 增加菜单项 menu_file.add_command(label=\x26quot;新建\x26quot;, accelerator=\x26quot;ctrl\x2bn\x26quot;, command=self.file_new) menu_file.add_command(label=\x26quot;打开\x26quot;, accelerator=\x26quot;ctrl\x2bo\x26quot;, command=self.file_open) menu_file.add_command(label=\x26quot;保存\x26quot;, accelerator=\x26quot;ctrl\x2bs\x26quot;, command=self.file_save) menu_file.add_separator() menu_file.add_command(label=\x26quot;退出\x26quot;, accelerator=\x26quot;ctrl\x2bq\x26quot;,command=self."
+  }
+  </script>
+  
+
+
+  <link type="text/css"
+        rel="stylesheet"
+        href="https://jeyligo.github.iocss/print.css"
+        media="print">
+
+  <link type="text/css"
+        rel="stylesheet"
+        href="https://jeyligo.github.iocss/poole.css">
+
+  <link type="text/css"
+        rel="stylesheet"
+        href="https://jeyligo.github.iocss/hyde.css">
+
+  
+
+
+  
+
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap">
+
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+        integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+        crossorigin="anonymous" />
+
+  <link rel="apple-touch-icon-precomposed"
+        sizes="144x144"
+        href="/apple-touch-icon-144-precomposed.png">
+
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  </head>
+<body>
+  <aside class="sidebar">
+  <div class="container">
+    <div class="sidebar-about">
+      
+        
+      
+
+      <h1>My New Hugo Site</h1>
+
+      
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li>
+          <a href="https://jeyligo.github.io">Home</a>
+        </li>
+        
+      </ul>
+    </nav>
+
+    <section class="social-icons">
+      
+    </section>
+  </div>
+</aside>
+
+
+  <main class="content container">
+  <div class="post">
+  <h1>记事本软件</h1>
+
+  <div class="post-date">
+    <time datetime="2020-03-09T19:03:33&#43;0800">Mar 9, 2020</time> · 1 min read
+  </div>
+
+  <p>from tkinter import *
+from tkinter.colorchooser import *
+from tkinter.filedialog import *
+from tkinter.messagebox import *</p>
+<p>class Application(Frame):
+def <strong>init</strong>(self, master=None):
+super().<strong>init</strong>(master)
+self.master = master
+self.name_file = None
+self.context_menu = None
+self.create_widget()</p>
+<pre><code>def create_widget(self):
+    &quot;&quot;&quot;创建主菜单&quot;&quot;&quot;
+    menu_bar = Menu(root)
+
+    # 创建子菜单
+    menu_file = Menu(menu_bar)
+    menu_edit = Menu(menu_bar)
+    menu_help = Menu(menu_bar)
+
+    # 将子菜单加入到菜单栏
+    menu_bar.add_cascade(label=&quot;文件(F)&quot;, menu=menu_file)
+    menu_bar.add_cascade(label=&quot;编辑(E)&quot;, menu=menu_edit)
+    menu_bar.add_cascade(label=&quot;帮助(H)&quot;, menu=menu_help)
+
+    # 增加菜单项
+    menu_file.add_command(label=&quot;新建&quot;, accelerator=&quot;ctrl+n&quot;, command=self.file_new)
+    menu_file.add_command(label=&quot;打开&quot;, accelerator=&quot;ctrl+o&quot;, command=self.file_open)
+    menu_file.add_command(label=&quot;保存&quot;, accelerator=&quot;ctrl+s&quot;, command=self.file_save)
+    menu_file.add_separator()
+    menu_file.add_command(label=&quot;退出&quot;, accelerator=&quot;ctrl+q&quot;,command=self.exit)
+
+    # 增加快捷键
+    root.bind(&quot;&lt;Control-n&gt;&quot;, lambda event:self.file_new())
+    root.bind(&quot;&lt;Control-o&gt;&quot;, lambda event:self.file_open())
+    root.bind(&quot;&lt;Control-s&gt;&quot;, lambda event: self.file_save())
+    root.bind(&quot;&lt;Control-q&gt;&quot;, lambda event: self.exit())
+
+    # 主窗口绑定菜单
+    root[&quot;menu&quot;] = menu_bar
+
+    # 创建文本编辑区
+    self.text_pad = Text(root, width=50, height=30)
+    self.text_pad.pack()
+
+    # 右键绑定上下文菜单事件
+    root.bind(&quot;&lt;Button-3&gt;&quot;, self.create_context_menu)
+
+    # 创建上下文菜单
+    self.context_menu = Menu(root)
+    self.context_menu.add_command(label=&quot;背景颜色&quot;, command=self.openAskColor)
+
+def file_new(self):
+    self.name_file = asksaveasfilename(title=&quot;另存为&quot;, initialfile=&quot;未命名.txt&quot;, defaultextension=&quot;.txt&quot;,
+                      filetypes=[(&quot;文档文件&quot;, &quot;*.txt&quot;)])
+    self.file_save()
+
+def file_open(self):
+    self.text_pad.delete(1.0, END)
+    with askopenfile(title=&quot;打开文件&quot;) as f:
+        self.text_pad.insert(INSERT, f.read())
+        self.name_file = f.name
+
+def file_save(self):
+    if self.name_file:
+        with open(self.name_file, &quot;w&quot;) as f:
+            c = self.text_pad.get(1.0, END)
+            f.write(c)
+    else:
+        self.file_new()
+
+def exit(self):
+    root.quit()
+
+def openAskColor(self):
+    s1 = askcolor(color=&quot;red&quot;, title=&quot;背景颜色&quot;)
+    root[&quot;bg&quot;] = s1[1]
+
+def create_context_menu(self,event):
+    &quot;&quot;&quot;上下文菜单在鼠标点击出的坐标显示&quot;&quot;&quot;
+    self.context_menu.post(event.x_root, event.y_root)
+</code></pre>
+<p>if <strong>name</strong> == &ldquo;<strong>main</strong>&quot;:
+root = Tk()
+root.geometry(&ldquo;500x300&rdquo;)
+app = Application(root)
+root.title(&ldquo;我的记事本&rdquo;)
+root.mainloop()</p>
+
+</div>
+
+
+  </main>
+
+  <footer>
+  <div class="copyright">
+    &copy;  2020 · 
+  </div>
+</footer>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"
+          integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0="
+          crossorigin="anonymous"></script>
+
+  
+
+  
+</body>
+</html>
